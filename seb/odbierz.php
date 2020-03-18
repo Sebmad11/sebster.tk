@@ -1,9 +1,0 @@
-<?php 
-if (count($_POST))
-	echo '<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" type="text/css" href="sebson_stylowanie.css"> </head> <body> <div class="nagłówek">Sebson.tk</div> <div class="tło"> <div class="col-3 col-s-3 menu"> <ul> <li>START</li> <li>NEWS</li> <li>ABOUT ME</li> <li><a href="projekty.html" target="_blank">PROJECTS</a></li> <li>CONTACT</li> <li><a href="sebson.tk-info" target="_blank">INFO</a></li> </ul> </div> <div class="col-6 col-s-9 tak"> <h1>Witaj na Sebson.tk</h1> <p>Na stronie na razie nie ma dużo, ale myślę że z upływem czasu będzie się rozwijać</p> </div> <div class="col-3 col-s-12 taak"> <div class="formularz"> <div> <form> <label for="fname">First Name</label> <input type="text" id="fname" name="firstname" placeholder="Your name.."> <label for="lname">Last Name</label> <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <label for="country">Country</label> <select id="country" name="country"> <option value="Warszawa">Warszawa</option> <option value="Kraków">Kraków</option> <option value="Katowice">Katowice</option> </select> <input type="submit" value="Submit"> </form> </div> </div> </div> </div> </body> </html>';
-else  echo '<form action="" method="POST">
-<input type="text" id="imie" name="imie">
-<input type="submit" value="Wyślij">
-</form>'; ?>
-
-
